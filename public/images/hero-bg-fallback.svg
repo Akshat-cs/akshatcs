@@ -1,0 +1,38 @@
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="800" fill="#0F0F23"/>
+  <circle cx="720" cy="400" r="300" fill="url(#paint0_radial)"/>
+  <g opacity="0.2">
+    <path d="M0 0h1440v800H0z" fill="none"/>
+    <path d="M0 0h1v1H0z" fill="#00FFFF"/>
+    <path d="M0 799h1v1H0z" fill="#00FFFF"/>
+    <path d="M1439 0h1v1h-1z" fill="#00FFFF"/>
+    <path d="M1439 799h1v1h-1z" fill="#00FFFF"/>
+    <path d="M0 100h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 200h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 300h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 400h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 500h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 600h1440v1H0z" fill="#00FFFF"/>
+    <path d="M0 700h1440v1H0z" fill="#00FFFF"/>
+    <path d="M100 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M200 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M300 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M400 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M500 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M600 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M700 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M800 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M900 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M1000 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M1100 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M1200 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M1300 0h1v800h-1z" fill="#00FFFF"/>
+    <path d="M1400 0h1v800h-1z" fill="#00FFFF"/>
+  </g>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 400) rotate(90) scale(300)">
+      <stop offset="0" stop-color="#7928CA" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#7928CA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
