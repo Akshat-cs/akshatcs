@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
+import Tutorials from "@/components/Tutorials";
 import Contact from "@/components/Contact";
 import ErrorBoundary from "@/components/ErrorBoundary";
 
@@ -41,6 +42,9 @@ export default function Home() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Experience />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Tutorials />
       </ErrorBoundary>
       <ErrorBoundary>
         <Contact />

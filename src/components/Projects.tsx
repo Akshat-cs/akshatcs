@@ -10,8 +10,7 @@ const projectsData = [
     title: "NFT Ticketing DApp",
     description:
       "A decentralized application for NFT-based event ticketing built on Algorand blockchain.",
-    image:
-      "https://github.com/user-attachments/assets/5efc2479-ebfc-436d-bc09-d92e874f3812",
+    image: "/images/nft-ticketing-dapp.png",
     tags: ["Algorand", "JavaScript", "React", "NFT"],
     github: "https://github.com/Akshat-cs/NFT-Ticketing-DApp",
     demo: null,
@@ -21,8 +20,7 @@ const projectsData = [
     title: "Base Sniper Bot",
     description:
       "A trading bot for Base network that uses Bitquery Events API and Uniswap SDK to identify and execute trades.",
-    image:
-      "https://github.com/user-attachments/assets/a56f3ccf-aa79-451e-8abe-e3cc536f5e50",
+    image: "/images/base-sniper-bot.png",
     tags: ["TypeScript", "Base", "Uniswap", "Trading Bot"],
     github: "https://github.com/Akshat-cs/Base-sniper-bot",
     demo: null,
@@ -32,8 +30,7 @@ const projectsData = [
     title: "ERC20 Faucet",
     description:
       "A custom ERC-20 token with a faucet implementation for testing and development purposes.",
-    image:
-      "https://github.com/user-attachments/assets/7b99a8ac-08c6-4e2b-b334-2c215805d9bb",
+    image: "/images/faucet.png",
     tags: ["Solidity", "Ethereum", "ERC-20", "Smart Contract"],
     github: "https://github.com/Akshat-cs/ERC20-Faucet",
     demo: null,
@@ -43,8 +40,7 @@ const projectsData = [
     title: "NFT Marketplace",
     description:
       "A decentralized marketplace for listing, buying, and selling NFTs with features to update or cancel listings.",
-    image:
-      "https://github.com/user-attachments/assets/0efb8df1-e050-4993-8d04-292ec4f10fc1",
+    image: "/images/nft-marketplace.png",
     tags: ["TypeScript", "NFT", "Marketplace", "Smart Contract"],
     github: "https://github.com/Akshat-cs/Nft-Marketplace",
     demo: null,
@@ -54,21 +50,19 @@ const projectsData = [
     title: "MERN AI Chatbot",
     description:
       "An AI-powered chatbot built with the MERN stack (MongoDB, Express, React, Node.js).",
-    image:
-      "https://github.com/user-attachments/assets/36ac2702-0d1e-4b8d-b771-79bc6c916b53",
+    image: "/images/mern-ai-chatbot.png",
     tags: ["TypeScript", "MERN", "AI", "Chatbot"],
     github: "https://github.com/Akshat-cs/MERN-AI-Chatbot",
     demo: null,
   },
   {
     id: 6,
-    title: "Fleek Lottery Frontend",
+    title: "EVM MEV Bot - MVP",
     description:
-      "Frontend for a blockchain-based lottery application hosted on Fleek (IPFS).",
-    image:
-      "https://github.com/user-attachments/assets/2c5a2c56-2da3-4475-a761-804524afe79d",
-    tags: ["JavaScript", "React", "IPFS", "Fleek"],
-    github: "https://github.com/Akshat-cs/Fleek-Lottery-frontend-hosted",
+      "Basic EVM based MEV which shows how you can frontrun or backrun trades",
+    image: "/images/mev-bot.png",
+    tags: ["TypeScript", "Uniswap", "Ethereum"],
+    github: "https://github.com/Akshat-cs/evm_mvp_bot",
     demo: null,
   },
 ];

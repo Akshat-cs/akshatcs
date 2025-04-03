@@ -8,25 +8,24 @@ const experienceData = [
     id: 1,
     role: "Developer Relations",
     company: "Bitquery",
-    duration: "2023 - Present",
+    duration: "April 2024 - Present",
     description: [
-      "Leading developer relations initiatives to support Web3 developers using Bitquery's blockchain data APIs",
-      "Creating technical content, tutorials, and documentation to help developers integrate blockchain data into their applications",
-      "Engaging with the developer community through workshops, webinars, and social media",
-      "Building sample applications and demos to showcase Bitquery's capabilities",
+      "Built and managed Bitquery API documentation accessed by 12K+ users, reducing the number of generated support tickets",
+      "Increased 10x the Bitquery's youtube content reach by creating 85+ technical tutorials, projects including Solana and EVM Sniper Bots",
+      "Providing remote technical support at Bitquery telegram channel which has over 4K+ members",
+      "Built Solana data APIs which added $500K+ to annual revenue for Bitquery",
     ],
     icon: FaBriefcase,
   },
   {
     id: 2,
-    role: "Blockchain Developer",
-    company: "Freelance",
-    duration: "2022 - 2023",
+    role: "Developer Relations Intern",
+    company: "Algorand Foundation",
+    duration: "2023 Summer",
     description: [
-      "Developed smart contracts and decentralized applications for various clients",
-      "Created NFT marketplaces, token systems, and DeFi applications",
-      "Implemented blockchain solutions on Ethereum, Algorand, and other platforms",
-      "Optimized gas usage and improved security of smart contracts",
+      "Built the NFT Ticketing dApp using PyTeal, Beaker for the ticketing smart contract used in event management",
+      "Guided a team of startup founders who were building NFT ticketing systems on Algorand Blockchain",
+      "Managed and solved technical issues on Algorand Discord which has over 15k+ members",
     ],
     icon: FaBriefcase,
   },
@@ -36,10 +35,9 @@ const experienceData = [
     company: "IIT Kanpur",
     duration: "2020 - 2024",
     description: [
-      "Graduated with a degree in Computer Science",
-      "Focused on blockchain technology, cryptography, and distributed systems",
-      "Participated in hackathons and blockchain development competitions",
-      "Completed research projects related to blockchain scalability and security",
+      "Graduated with a degree in Computer Science & Engineering",
+      "Organized Largest College Cultural Festival Antaragni'23 IITK",
+      "Participated in Blockchain Hackathons and won 2 of them",
     ],
     icon: FaGraduationCap,
   },
@@ -90,7 +88,7 @@ const Experience = () => {
               </div>
 
               <div className="web3-card p-6">
-                <h3 className="text-xl font-bold mb-1 text-white">
+                <h3 className="text-xl font-bold mb-1 text-white text-left">
                   {item.role}
                 </h3>
                 <div className="flex items-center mb-3 text-sm text-gray-400">
@@ -98,7 +96,7 @@ const Experience = () => {
                   <span className="mx-2">•</span>
                   <span>{item.duration}</span>
                 </div>
-                <ul className="text-gray-300 text-sm space-y-2">
+                <ul className="text-gray-300 text-sm space-y-2 text-left">
                   {item.description.map((point, i) => (
                     <li key={i} className="flex items-start">
                       <span className="text-web3-cyan mr-2">▹</span>

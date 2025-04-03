@@ -54,8 +54,7 @@ const Hero = () => {
               <span className="web3-text-gradient font-mono">Akshat Meena</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-gray-300 mb-6">
-              <span className="glow-text">Blockchain Enthusiast</span> &
-              Developer Relations at Bitquery
+              <span className="glow-text">Developer Relations Engineer</span>
             </h2>
             <p className="text-gray-400 mb-8 max-w-lg">
               Building bridges between Web3 technologies and developers. IIT
